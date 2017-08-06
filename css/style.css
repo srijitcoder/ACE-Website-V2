@@ -176,6 +176,10 @@ h2{
 	margin: 0 auto;
 }
 
+#team #wrap {
+	width: 75%;
+}
+
 .sec-white{
 	padding-top:80px;
 	padding-bottom: 80px;
@@ -289,7 +293,7 @@ footer{
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
-	margin:35px 80px;
+	margin:40px 50px;
 }
 
 
@@ -377,8 +381,8 @@ footer.join:hover {
 .overlay {
 	background: rgba(16, 19, 26, 0.62);
 	border-radius: 100%;
-	width: 230px;
-	height: 230px;
+	width: 210px;
+	height: 210px;
 	position: absolute;
 	top:0px;
 	display: none;
@@ -387,7 +391,7 @@ footer.join:hover {
 }
 
 .team img {
-	width: 230px;
+	width: 210px;
 	border-radius: 100%;
 }
 
@@ -430,6 +434,11 @@ footer.join:hover {
 
 @media screen and (max-width:760px)
 {
+	#about .center {
+		width: 80%;
+    	margin: 0 auto;
+    	margin-top: -70px;
+	}	
 	#wrap{
 		width:90%;
 	}

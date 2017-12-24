@@ -18,6 +18,8 @@
 }​ 
 
 
+
+
 html{
 	width: 100%;
 	height: 100%;
@@ -110,6 +112,27 @@ body{
 	opacity: 1 !important;
 	width: 47%;
 }
+
+.portal {
+	width: 250px;
+	margin-top: 30px;
+	display: block;
+	outline: 0;
+	padding: 15px;
+	color:#66fcf1;
+	font-size: 18px;
+	font-weight: bold;
+	border:3px solid #66fcf1;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+	transition: all .4s linear;
+}
+
+a {
+	text-decoration: none;
+}
+
  .hero_video {
     min-width: 100vw;
     height: 100vh;
@@ -174,6 +197,10 @@ h2{
 #wrap{
 	width: 70%;
 	margin: 0 auto;
+}
+
+#team #wrap {
+	width: 75%;
 }
 
 .sec-white{
@@ -289,7 +316,7 @@ footer{
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
-	margin:35px 80px;
+	margin:40px 50px;
 }
 
 
@@ -377,8 +404,8 @@ footer.join:hover {
 .overlay {
 	background: rgba(16, 19, 26, 0.62);
 	border-radius: 100%;
-	width: 230px;
-	height: 230px;
+	width: 210px;
+	height: 210px;
 	position: absolute;
 	top:0px;
 	display: none;
@@ -387,7 +414,7 @@ footer.join:hover {
 }
 
 .team img {
-	width: 230px;
+	width: 210px;
 	border-radius: 100%;
 }
 
@@ -430,6 +457,11 @@ footer.join:hover {
 
 @media screen and (max-width:760px)
 {
+	#about .center {
+		width: 80%;
+    	margin: 0 auto;
+    	margin-top: -70px;
+	}	
 	#wrap{
 		width:90%;
 	}
@@ -487,5 +519,13 @@ footer.join:hover {
 	}
 	.copy {
 		font-size: 13px;
+	}
+
+	.portal {
+		margin: 0 auto;
+		margin-top: 25px;
+		font-size: 15px;
+		padding: 12px;
+		width: 230px;
 	}
 }
